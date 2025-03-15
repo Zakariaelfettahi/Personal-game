@@ -1,6 +1,5 @@
 # My Pygame Game
 
-![Game Screenshot](screenshot.png)  
 *A fun and interactive game built using Pygame!*
 
 ## Description
