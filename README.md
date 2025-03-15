@@ -1,9 +1,9 @@
-# My Pygame Game
-
+# MazeRunner
+ 
 *A fun and interactive game built using Pygame!*
 
 ## Description
-This is a personal game project developed using Pygame, a popular library for creating 2D games in Python. The game features engaging mechanics, interactive graphics, and smooth gameplay.
+MazeRunner is a personal game project developed using Pygame, a popular library for creating 2D games in Python. The game features engaging mechanics, interactive graphics, and smooth gameplay.
 
 ## Features
 - **Exciting Gameplay**: Enjoy dynamic levels and fun challenges.
@@ -18,7 +18,7 @@ To run the game on your system, follow these steps:
 1. Clone this repository:
    ```sh
    git clone https://github.com/Zakariaelfettahi/Personal-game
-   cd yourgame
+   cd MazeRunner
    ```
 2. Run the game:
    ```sh
@@ -47,7 +47,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
-- **Email**: zakariaelfettahi@gmail.com
+- **Email**:  zakariaelfettahi@gmail.com
 - **GitHub**: [Zakariaelfettahi](https://github.com/Zakariaelfettahi)
 
 ---
