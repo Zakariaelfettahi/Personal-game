@@ -17,14 +17,10 @@ To run the game on your system, follow these steps:
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/yourgame.git
+   git clone https://github.com/Zakariaelfettahi/Personal-game
    cd yourgame
    ```
-2. Install dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Run the game:
+2. Run the game:
    ```sh
    python main.py
    ```
@@ -51,8 +47,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Email**: zakariaelfettahi@gmail.com
+- **GitHub**: [Zakariaelfettahi](https://github.com/Zakariaelfettahi)
 
 ---
 Enjoy the game and have fun! 🎮
