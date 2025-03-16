@@ -1,17 +1,32 @@
 import pygame
 import constants
- 
-class Character():
-     def __init__(self,x,y, image):
-         self.image = image
-         self.rect = pygame.Rect(0,0,40,40)
-         self.rect.center = (x, y)
-     def move(self,dx,dy):
-         if dx !=0 and dy !=0:
-             dx = dx/1.414
-             dy = dy/1.414
-         self.rect.x += dx
-         self.rect.y += dy
-     def draw(self,area):
+
+class Player:
+    def __init__(self, x, y, w, h, image):
+        self.image = image
+        self.rect = pygame.Rect(x, y, w, h)
+        self.vel_y = 0 
+        self.gravity_force = constants.GRAVITY_FORCE  
+        self.jump_strength = constants.JUMP_STRENGTH 
+        self.on_ground = False
+
+    def gravity(self):
+        self.vel_y += self.gravity_force  
+        self.rect.y += self.vel_y  
+
+        # Collision with the ground
+        if self.rect.bottom >= constants.SCREEN_HEIGHT:
+            self.rect.bottom = constants.SCREEN_HEIGHT
+            self.vel_y = 0  
+            self.on_ground = True
+        else:
+            self.on_ground = False
+
+    def jump(self):
+        if self.on_ground:
+            self.vel_y = self.jump_strength  
+            self.on_ground = False  
+         
+    def draw(self,area):
          area.blit(self.image, self.rect)
          pygame.draw.rect(area, constants.RED , self.rect, 1)
